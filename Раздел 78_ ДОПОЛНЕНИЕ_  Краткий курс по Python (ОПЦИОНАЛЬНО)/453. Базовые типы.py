@@ -1,0 +1,5 @@
+print(type(2))
+print(type(2.2))
+print(type('abc'))
+print(type(False))
+print(type(None))
