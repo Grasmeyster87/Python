@@ -41,4 +41,4 @@ def process_data(input_data, send_data_fn):
     updated_data = input_data.copy()
     send_data_fn(updated_data)
 
-process_data({'name': 'Vitaliy', send_data})
+process_data('name': 'Vitaliy', send_data)
