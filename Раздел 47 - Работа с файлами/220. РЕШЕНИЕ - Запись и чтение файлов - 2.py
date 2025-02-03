@@ -3,8 +3,8 @@ from pathlib import Path
 files_dir = Path('./Раздел 47 - Работа с файлами/testfolder/files')
 files_dir.mkdir(exist_ok=True)  # игнорирование  ошибки создания папки
 
-first_file = Path(files_dir / 'first.txt')
-second_file = Path(files_dir / 'second.txt')
+first_file = files_dir / 'first.txt'
+second_file = files_dir / 'second.txt'
 
 with open(first_file, 'w') as f:
     f.write("First line \n")
@@ -25,9 +25,18 @@ with open(second_file, 'w') as f:
 with open(first_file) as f:
     print(f.read())
 
-with open(second_file) as f:
-    for line in f.readlines():
-        print(line)
+# with open(second_file) as f:  # такой вариант вывода подходит больше для небольших файлов
+#     for line in f.readlines():
+#         print(line)
+with open(second_file) as f:  # построчного вывода больше подходит для больших файлов
+    for line in f:
+        print(line.strip())
+    # while True:
+    #     line = f.readline()
+    #     if not line:
+    #         break
+    #     # уберает лишние пробелы и пустые строки переходы на пустые строки
+    #     print(line.strip())
 
 first_file.unlink()
 second_file.unlink()
