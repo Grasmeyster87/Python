@@ -14,7 +14,7 @@ try:
 except Exception as e:
     print(repr(e))
 
-# print(dir(json))
+print('\n', dir(json), '\n')
 print(sneakers)
 
 # sneakers_dumps = json.dumps(sneakers)

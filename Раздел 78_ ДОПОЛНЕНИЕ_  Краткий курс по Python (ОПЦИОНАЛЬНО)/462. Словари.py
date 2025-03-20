@@ -5,7 +5,7 @@ print(type(person))
 print(person['name'])
 person.get("age") # получение значения значения словаря по ключю (в случае отсутствия ничего не выводится)
 
-str(person.get("age"))
+print(str(person.get("age")))
 
 print(person.get("age", 18)) # если в словаре нет значения age 18 значение по умолчанию
 person["happy"] = True # добавление значения в словарь

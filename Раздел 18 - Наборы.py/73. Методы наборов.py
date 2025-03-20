@@ -30,12 +30,14 @@ all_size = photo_size.union(other_sizes)  # обединение двух наб
 
 print(all_size)
 # ---------------------------------------------
-common_s = photo_size.intersection(other_sizes)  # определяет пересечение множеств
+# определяет пересечение множеств
+common_s = photo_size.intersection(other_sizes)
 
 print('\ncommon_s: ', common_s)
 # ---------------------------------------------
 nums = {10, 5, 35}
 other_nums = {20, 5, 12, 10, 35}
 
-res = nums.issubset(other_nums)  # проверка входит ли множество nums в other_nums
+# проверка входит ли множество nums в other_nums
+res = nums.issubset(other_nums)
 print(res)

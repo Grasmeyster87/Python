@@ -26,5 +26,5 @@ print('\n\nmy_admin.__dict__: ', my_admin.__dict__)
 my_user = User('bob234', 'bob@bob.com')
 print(my_user.__dict__)
 
-print('\n\n User.__subclasses__(): ', User.__subclasses__())
-print('\n\n object.__subclasses__(): ', object.__subclasses__())
+# print('\n\n User.__subclasses__(): ', User.__subclasses__())
+# print('\n\n object.__subclasses__(): ', object.__subclasses__())
