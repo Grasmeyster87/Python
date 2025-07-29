@@ -18,9 +18,8 @@ button = {
 
 button1 = button_default | button_style
 
-print(button1)
-
 print(button)
+print(button1)
 
 """
 Задание

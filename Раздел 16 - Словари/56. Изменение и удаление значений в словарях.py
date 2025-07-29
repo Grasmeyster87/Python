@@ -22,6 +22,6 @@ print(my_motorbike)
 
 # ------------ Удаление элементов ---------------------------
 
-del my_motorbike['engin_vol']
+del my_motorbike['engine_vol']
 
 print(my_motorbike)

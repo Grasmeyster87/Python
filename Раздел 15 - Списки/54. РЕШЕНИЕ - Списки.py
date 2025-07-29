@@ -11,7 +11,7 @@ arr_1.reverse()
 arr_2 = [1, 'a']
 
 arr_1.extend(arr_2)
-print(arr_1)
+print('arr_1.extend', arr_1)
 
 first_list = [1, 'a']
 second_list = [2, 'b']

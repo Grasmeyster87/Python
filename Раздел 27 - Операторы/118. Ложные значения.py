@@ -12,7 +12,7 @@ range range (0)
 str ""  ложными являются все пустые последовательности 
 """
 
-print(bool(0))
+""" print(bool(0))
 print(bool(0.0))
 print(bool(0j))
 
@@ -24,8 +24,8 @@ print(bool([]))
 print(bool(()))
 print(bool(set()))
 print(bool(range(0)))
-print('bool((''))', bool(('')))
-print(not not {})
+print('bool((''))', bool((''))) """
+""" print(not not {}) """
 print(not not {'a': 10})
 
 my_list = [1, 2]
